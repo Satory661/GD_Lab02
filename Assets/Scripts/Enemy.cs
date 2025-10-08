@@ -25,7 +25,7 @@ public class EnemyFSM : MonoBehaviour
 
     void Update()
     {
-        if (player == null) return; // ✅ Проверка на уничтожение игрока
+        if (player == null) return;
 
         float dist = Vector3.Distance(transform.position, player.position);
 
