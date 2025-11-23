@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using Mirror;
 public class EnemyFSM : MonoBehaviour
 {
     public Transform player;

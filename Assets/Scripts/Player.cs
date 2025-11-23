@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     public float gravity = -9.81f;
 
     [Header("Health")]
-    public int maxHealth = 3;
+    public int maxHealth = 5;
 
     [Header("References")]
     public Transform cameraTransform;
